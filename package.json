@@ -1,0 +1,19 @@
+{
+  "name": "tank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "fix-cs": "eslint . --fix",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@solid-soda/eslint-config": "^2.1.4",
+    "eslint": "^5.2.0"
+  }
+}
